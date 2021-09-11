@@ -64,7 +64,6 @@ i {
 }
 @media screen and (max-width: 800px){
     .hide {
-        /* right: 180px; */
         top: 110px;
     }
     .list-container li a:hover {

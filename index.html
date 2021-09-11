@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dropdown Flex</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <ul class="list-container">
+        <li><a href="#" id="active">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li class="show" id="show"><a href="#" onclick="showSub()">SERVICES<i class="fas fa-angle-down"></i></a>
+            <ul class="hide" id="hide" onmouseleave="hideSub()">
+                <li class="v-align"><a href="#">HTML</a></li>
+                <hr>
+                <li class="v-align"><a href="#">CSS</a></li>
+                <hr>
+                <li class="v-align"><a href="#">JAVASCRIPT</a></li>
+            </ul>
+        </li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul><!-- end list-container -->
+    
+    <div class="main">
+        
+    </div>
+
+        <script src="index.js"></script>
+</body>
+</html>

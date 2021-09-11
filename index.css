@@ -67,6 +67,9 @@ i {
         /* right: 180px; */
         top: 110px;
     }
+    #active {
+        color: white;
+    }
 }
 .main {
     height: 400px;
